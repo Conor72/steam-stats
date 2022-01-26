@@ -1,6 +1,8 @@
 import './App.css';
 import NavBar from "./components/navbar";
+import TemplateCard from "./components/templateCard";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Profile from './components/profile';
 
 function App() {
   return (
@@ -9,9 +11,8 @@ function App() {
       
     
       <NavBar />  {/* Add nav-bar compenent */}   
-
-
-      <p>test</p>
+      <TemplateCard /> {/* Add template-card component */}  
+      <Profile /> {/* Add profile component */}
 
 
     </div>
