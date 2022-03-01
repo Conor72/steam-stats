@@ -1,11 +1,11 @@
 import React from "react";
-import "./profile.css";
 
-const Profile = () => {
+
+const HomePage = () => {
     return (
 
 
-      <p>Profile</p>
+      <p>Homepage</p>
         
            
            
@@ -14,4 +14,4 @@ const Profile = () => {
         );
         };
 
-export default Profile;
+export default HomePage;
